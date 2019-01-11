@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Location</title>
+<link href="../css/tertiary.css" rel="stylesheet" type="text/css">
+
+</head>
+<!--MAIN CONTAINER--------------------------------------------------------------------------------------->
+<body class="main " id="main ">
+	
+<!--NAVIAGTION------------------------------------------------------------------------------------------->
+<div class="main-nav mainItem" id="main-nav mainItem">
+		<ul class="ul-start" id="ul-start">
+			
+			<li class="navLogo"><a href="index_tv.html"><img src="../images/1x/Asset 1.png" alt="logo" width="30px" class="logo" ></a></li>
+			
+				<li class="navText"><a href="" id="destination">Destination</a>
+					<ul class="navDestination" id="navDestinations">
+						<li><a href="countrySideCottage.html">Country</a></li>
+						<li><a href="LakeSideGetaway.html">Lakes</a></li>
+						<li><a href="mountainRetreat.html">Mountains</a></li>
+						<li><a href="tropicalParadise.html">Tropical</a></li>
+						<li><a href="urbanOasis.html">Urban</a></li>
+					</ul>
+			
+			</li>
+				<li class= "navText"><a href="activities.html">Activities</a>
+			</li>
+				<li class="navText"><a href="location.html">Location</a>
+			</li>
+			</ul>
+			<!--<img src="../images/1x/Asset 3.png" alt="companyname" height="50px">-->
+		
+		<ul class="ul-end" id="ul-end">
+			<li><a  href="">Sign In</a></li>
+				<ul>
+					<li></li>
+				</ul>
+			<li><a href="">Customer Service</a></li>
+				<ul>
+					<li></li>
+				</ul>
+		</ul>
+	
+	</div>
+	
+	<div class="maskOne">
+		<h1>Browse the globe to get ideas for vacation destinations</h1>
+	<!--map-------------------------------------------------------------------------------------->	
+	<div class="map" id="map"></div>
+	</div>
+
+	<!--FOOTER-------------------------------------------------------------------------------------------->
+	<div class="main-footer mainItem" id="main-footer mainItem">	<p>&copy; Travel Time llc</p></div>
+	
+	<script>function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/destination.js"></script>
+</body>
+</html>

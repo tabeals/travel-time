@@ -1,0 +1,227 @@
+/* Scss Document */
+$orange: orange;
+
+.main {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+display:flex;
+flex-direction: column;
+background-color: orange;
+	margin:0;
+
+/*NAVIGATION---------------------------------------*/
+		.main-nav{
+		height:55px;
+		background-color: $orange;
+		display: flex;
+		flex-direction: row;
+		justify-content:  space-between;
+		align-items: center;
+		/*	img{
+			margin-right:120px;
+				
+			}
+			.logo{
+			position: absolute;
+			padding-left: 5px;
+			}*/
+			.ul-start{
+			
+				
+				.navText{
+					margin-top:7px;
+				}
+				}
+			.ul-end{
+			margin:35px;
+			}
+			.ul-start, .ul-end{
+				display: flex;
+				flex-direction: row;
+				padding:0 20px;
+				li{
+					color:white;
+					margin:0 15px;
+					font:bold;
+					list-style-type: none;
+					 a:link{
+					  	 color:white;
+						list-style-type: none;
+						margin:0 15px;
+						font:bold;
+						text-decoration: none;
+					}
+					 a:visited{
+						color:white;
+						font:bold;
+					}
+					a:hover{
+						background-color: white;
+						color:blue;
+						font:bold;
+					}
+					 a:active{
+						color:white;
+						list-style-type: none;
+						margin:0 15px;
+						font:bold;
+						text-decoration: none;
+					}
+					
+					}
+				
+				
+				}
+		
+	}
+	/*HEADER---------------------------------------*/
+		.tropicalParadise {
+		background-image:url("../images/Destination Images/tropicalParadise.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 500px;
+		display: flex;
+		flex-direction:row;
+		align-items:flex-start;
+		justify-content:flex-start;
+				h1{
+					margin: 300px 0 0 100px;
+					color:white;
+					background-color:orange;
+					border-radius: 10px;
+					font-size:3em;
+				}
+	}
+	
+	
+	
+	
+	
+		
+		.mountain {
+		background-image:url("../images/Destination Images/mountainRetreat.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 500px;
+		display: flex;
+		flex-direction:row;
+		align-items:flex-start;
+		justify-content:flex-start;
+				h1{
+					margin: 300px 0 0 100px;
+					color:white;
+					background-color:orange;
+					border-radius: 10px;
+					font-size:3em;
+				}
+	}
+	
+		
+	
+	
+	
+		.lake{
+		background-image:url("../images/Destination Images/lakeSide.png");
+		background-repeat: no-repeat;
+		background-size:cover;
+		height: 500px;
+		display: flex;
+		flex-direction:row;
+		align-items:flex-start;
+		justify-content:flex-start;
+				h1{
+					margin: 300px 0 0 100px;
+					color:white;
+					background-color:orange;
+					border-radius: 10px;
+					font-size:3em;
+				}
+	}
+	
+	
+
+		
+
+
+		.urban{
+		background-image:url("../images/Destination Images/urbanskyline.jpg");
+		background-repeat: no-repeat;
+		background-size:cover;
+		height: 500px;
+		display: flex;
+		flex-direction:row;
+			align-items:flex-start;
+		justify-content:flex-start;
+				h1{
+					margin: 300px 0 0 100px;
+					color:white;
+					background-color:orange;
+					border-radius: 10px;
+					font-size:3em;
+				}
+	}
+	
+	
+
+
+
+
+
+
+		.countrySide{
+		background-image:url("../images/Destination Images/countrySideCottage.png");
+		background-repeat: no-repeat;
+		background-size:cover;
+		height: 500px;
+		display: flex;
+		flex-direction:row;
+		align-items:flex-start;
+		justify-content:flex-start;
+				h1{
+					margin: 300px 0 0 100px;
+					color:white;
+					background-color:orange;
+					border-radius: 10px;
+					font-size:3em;
+				}
+	}
+	
+	
+	/*MAIN CONTENT-----------------------------------------------------*/
+	.tropical{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+
+		.tropicalUla{
+			background-color: white;	
+			height:250px;
+			width:500px;
+			margin: -125px 0px 0px 100px;
+			border-radius: 15px;
+			zindex: 100;
+		}
+		.tropicalUlb{
+			align-content:  flex-end;
+			background-color: white;
+			height:250px;
+			width:700px;
+			margin: -125px 100px 0px 0px;
+			border-radius: 15px;
+			zindex: 100;
+		}
+	
+		
+	}
+
+}
+
+	.navDestination{
+	margin:5px 0 0px -5px;
+	background-color: $orange;
+	padding: 0;
+	position:fixed;
+	padding-bottom: 5px;
+	z-index:100;
+}
+

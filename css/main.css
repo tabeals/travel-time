@@ -1,0 +1,228 @@
+/* Scss Document */
+.main {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  margin: 0;
+  /*NAVIGATION---------------------------------------*/
+  /*HEADER---------------------------------------*/
+  /*MAIN CONTENT---------------------------------*/
+  /*BOTTOM BANNER--------------------------------*/
+  /*FOOTER---------------------------------------*/ }
+  .main .main-nav {
+    height: 55px;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*	img{
+    	margin-right:120px;
+    		
+    	}
+    	.logo{
+    	position: absolute;
+    	padding-left: 5px;
+    	}*/ }
+    .main .main-nav .ul-start .navText {
+      margin-top: 7px; }
+    .main .main-nav .ul-start, .main .main-nav .ul-end {
+      display: flex;
+      flex-direction: row; }
+      .main .main-nav .ul-start li, .main .main-nav .ul-end li {
+        color: white;
+        margin: 0 15px;
+        font: bold;
+        list-style-type: none; }
+        .main .main-nav .ul-start li a:link, .main .main-nav .ul-end li a:link {
+          color: white;
+          list-style-type: none;
+          margin: 0;
+          font: bold;
+          text-decoration: none; }
+        .main .main-nav .ul-start li a:visited, .main .main-nav .ul-end li a:visited {
+          color: white;
+          font: bold; }
+        .main .main-nav .ul-start li a:hover, .main .main-nav .ul-end li a:hover {
+          background-color: white;
+          color: blue;
+          font: bold; }
+        .main .main-nav .ul-start li a:active, .main .main-nav .ul-end li a:active {
+          color: white;
+          list-style-type: none;
+          margin: 0 15px;
+          font: bold;
+          text-decoration: none; }
+  .main .main-header {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .main .main-header .mask {
+      border-radius: 20px;
+      opacity: .3;
+      background-color: #000000;
+      position: absolute;
+      padding: 100px 350px 200px 400px; }
+    .main .main-header .header-form {
+      position: absolute;
+      color: #ffffff;
+      font-size: 1.5em;
+      margin-top: 0;
+      display: flex;
+      flex-direction: column; }
+      .main .main-header .header-form h1 {
+        align-self: center; }
+      .main .main-header .header-form p {
+        padding-left: 50px;
+        font-size: 20px; }
+      .main .main-header .header-form button {
+        background-color: #70FA07;
+        border: solid 2px lightblue;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; }
+    .main .main-header .header-input {
+      width: 680px;
+      height: 50px;
+      border-radius: 15px;
+      border: solid 2px lightblue;
+      position: relative;
+      font-size: 18px; }
+  .main .main-content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main .main-content .globe {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      align-self: stretch; }
+      .main .main-content .globe .globeText {
+        margin: 10px 50px 50px 10px;
+        padding: 50px;
+        /*border: solid 1px black;*/
+        width: 500px;
+        font-size: 1.5em;
+        color: #0090FE; }
+        .main .main-content .globe .globeText h3 {
+          color: #00D32D; }
+      .main .main-content .globe .globeImage {
+        margin: 100px 200px 100px 50px;
+        padding: 50px;
+        border-radius: 15px;
+        /*border-right:solid 1px #02B5FC;*/
+        border: solid 1px #B6B6B6;
+        /*border: solid 1px red;*/
+        box-shadow: -15px 8px 25px lightgrey; }
+    .main .main-content .process {
+      background-color: orange;
+      color: white;
+      align-self: stretch; }
+      .main .main-content .process h1 {
+        margin-left: 36%; }
+    .main .main-content .computer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      align-self: stretch; }
+      .main .main-content .computer .computerText {
+        margin: 10px 10px 50px 150px;
+        padding: 50px;
+        /*border: solid 1px black;*/
+        width: 500px;
+        font-size: 1.5em;
+        color: #0090FE; }
+        .main .main-content .computer .computerText h4 {
+          color: #00D32D; }
+      .main .main-content .computer .computerImage {
+        margin: 100px 10px 50px 120px;
+        padding: 50px;
+        border-radius: 15px;
+        /*border-right:solid 1px #02B5FC;*/
+        border: solid 1px #B6B6B6;
+        /*border: solid 1px red;*/
+        box-shadow: -15px 8px 25px lightgrey; }
+    .main .main-content .browser {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      align-self: stretch; }
+      .main .main-content .browser .browserText {
+        margin: 10px 150px 50px 150px;
+        padding: 50px;
+        /*border: solid 1px black;*/
+        width: 500px;
+        font-size: 1.5em;
+        color: #0090FE; }
+        .main .main-content .browser .browserText img {
+          margin-left: 300px; }
+        .main .main-content .browser .browserText h4 {
+          color: #00D32D; }
+      .main .main-content .browser .browserImage {
+        margin: 100px 10px 50px 10px;
+        padding: 50px;
+        border-radius: 15px;
+        /*border-right:solid 1px #02B5FC;*/
+        border: solid 1px #B6B6B6;
+        /*border: solid 1px red;*/
+        box-shadow: 15px 8px 25px lightgrey; }
+    .main .main-content .penguin {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      align-self: stretch; }
+      .main .main-content .penguin .penguinText {
+        margin: 10px 150px 50px 150px;
+        padding: 50px;
+        /*border: solid 1px black;*/
+        width: 500px;
+        font-size: 1.5em;
+        color: #0090FE; }
+        .main .main-content .penguin .penguinText h4 {
+          color: #00D32D; }
+      .main .main-content .penguin .penguinImage {
+        margin: 100px 10px 50px 10px;
+        padding: 50px;
+        border-radius: 15px;
+        /*border-right:solid 1px #02B5FC;*/
+        border: solid 1px #B6B6B6;
+        /*border: solid 1px red;*/
+        box-shadow: -15px 8px 25px lightgrey; }
+  .main .main-bottom {
+    background-color: orange; }
+    .main .main-bottom .elephant {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center; }
+      .main .main-bottom .elephant img {
+        padding-right: 50px; }
+  .main .main-footer {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    height: 50px;
+    justify-content: center;
+    align-content: center; }
+    .main .main-footer p {
+      color: white;
+      font-size: 2em; }
+
+.navDestination {
+  margin: 5px 0 0px -5px;
+  background-color: orange;
+  padding: 0;
+  position: fixed;
+  padding-bottom: 5px; }

@@ -1,0 +1,159 @@
+/* Scss Document */
+.main {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  margin: 0;
+  /*NAVIGATION---------------------------------------*/
+  /*HEADER---------------------------------------*/
+  /*MAIN CONTENT-----------------------------------------------------*/ }
+  .main .main-nav {
+    height: 55px;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*	img{
+    	margin-right:120px;
+    		
+    	}
+    	.logo{
+    	position: absolute;
+    	padding-left: 5px;
+    	}*/ }
+    .main .main-nav .ul-start .navText {
+      margin-top: 7px; }
+    .main .main-nav .ul-end {
+      margin: 35px; }
+    .main .main-nav .ul-start, .main .main-nav .ul-end {
+      display: flex;
+      flex-direction: row;
+      padding: 0 20px; }
+      .main .main-nav .ul-start li, .main .main-nav .ul-end li {
+        color: white;
+        margin: 0 15px;
+        font: bold;
+        list-style-type: none; }
+        .main .main-nav .ul-start li a:link, .main .main-nav .ul-end li a:link {
+          color: white;
+          list-style-type: none;
+          margin: 0 15px;
+          font: bold;
+          text-decoration: none; }
+        .main .main-nav .ul-start li a:visited, .main .main-nav .ul-end li a:visited {
+          color: white;
+          font: bold; }
+        .main .main-nav .ul-start li a:hover, .main .main-nav .ul-end li a:hover {
+          background-color: white;
+          color: blue;
+          font: bold; }
+        .main .main-nav .ul-start li a:active, .main .main-nav .ul-end li a:active {
+          color: white;
+          list-style-type: none;
+          margin: 0 15px;
+          font: bold;
+          text-decoration: none; }
+  .main .tropicalParadise {
+    background-image: url("../images/Destination Images/tropicalParadise.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .main .tropicalParadise h1 {
+      margin: 300px 0 0 100px;
+      color: white;
+      background-color: orange;
+      border-radius: 10px;
+      font-size: 3em; }
+  .main .mountain {
+    background-image: url("../images/Destination Images/mountainRetreat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .main .mountain h1 {
+      margin: 300px 0 0 100px;
+      color: white;
+      background-color: orange;
+      border-radius: 10px;
+      font-size: 3em; }
+  .main .lake {
+    background-image: url("../images/Destination Images/lakeSide.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .main .lake h1 {
+      margin: 300px 0 0 100px;
+      color: white;
+      background-color: orange;
+      border-radius: 10px;
+      font-size: 3em; }
+  .main .urban {
+    background-image: url("../images/Destination Images/urbanskyline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .main .urban h1 {
+      margin: 300px 0 0 100px;
+      color: white;
+      background-color: orange;
+      border-radius: 10px;
+      font-size: 3em; }
+  .main .countrySide {
+    background-image: url("../images/Destination Images/countrySideCottage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .main .countrySide h1 {
+      margin: 300px 0 0 100px;
+      color: white;
+      background-color: orange;
+      border-radius: 10px;
+      font-size: 3em; }
+  .main .tropical {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .main .tropical .tropicalUla {
+      background-color: white;
+      height: 250px;
+      width: 500px;
+      margin: -125px 0px 0px 100px;
+      border-radius: 15px;
+      zindex: 100; }
+    .main .tropical .tropicalUlb {
+      align-content: flex-end;
+      background-color: white;
+      height: 250px;
+      width: 700px;
+      margin: -125px 100px 0px 0px;
+      border-radius: 15px;
+      zindex: 100; }
+
+.navDestination {
+  margin: 5px 0 0px -5px;
+  background-color: orange;
+  padding: 0;
+  position: fixed;
+  padding-bottom: 5px;
+  z-index: 100; }
